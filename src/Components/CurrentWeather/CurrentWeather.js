@@ -18,17 +18,17 @@ const CurrentWeather = ({ today, buttonTxt, redirectLocation }) => {
             <Stack direction='horizontal'>
                 <img src={today.weatherImage} alt="weather" style={{ width: '15rem' }} />
                 <Stack direction='vertical' className='justify-content-center'>
-                    <h1 style={{ fontSize: '5em' }}>{today.temp.max} &#8457;</h1>
+                    <h1 style={{ fontSize: '5em' }}>{today.temp.max} &#8451;</h1>
                     <p style={{ textTransform: 'capitalize' }}>{today.weather[0].description}</p>
                 </Stack>
                 <div style={{ borderRight: '1px solid black' }}></div>
                 <Stack direction='vertical' style={{ alignSelf: 'auto' }}>
                     <Stack direction='vertical' className='p-2'>
-                        <p><b>{today.temp.max} &#8457;</b></p>
+                        <p><b>{today.temp.max} &#8451;</b></p>
                         <p>Max temperature</p>
                     </Stack>
                     <Stack direction='vertical' className='p-2'>
-                        <p><b>{today.temp.min} &#8457;</b></p>
+                        <p><b>{today.temp.min} &#8451;</b></p>
                         <p>Min temperature</p>
                     </Stack>
                 </Stack>

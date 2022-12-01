@@ -24,7 +24,7 @@ const DailyForecast = ({ forecastData }) => {
                         <div className="fw-bold">Min temperature</div>
                     </div>
                     <Badge bg="primary" pill>
-                        {forecastData.temp.min} &#8457;
+                        {forecastData.temp.min} &#8451;
                     </Badge>
                 </ListGroup.Item>
                 <ListGroup.Item
@@ -35,7 +35,7 @@ const DailyForecast = ({ forecastData }) => {
                         <div className="fw-bold">Max temp</div>
                     </div>
                     <Badge bg="primary" pill>
-                        {forecastData.temp.max} &#8457;
+                        {forecastData.temp.max} &#8451;
                     </Badge>
                 </ListGroup.Item>
                 <ListGroup.Item

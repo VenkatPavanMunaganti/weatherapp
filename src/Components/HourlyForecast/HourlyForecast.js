@@ -32,7 +32,7 @@ const HourlyForecast = ({ forecast, day, today: dailyForecast}) => {
                                         </Stack>
                                         <Stack className='justify-content-around' direction='horizontal' gap={1} style={{ width: '3em' }}>
                                             <p><b>{f.main.temp}</b></p>
-                                            <p><b>&#8457;</b></p>
+                                            <p><b>&#8451;</b></p>
                                         </Stack>
                                         <Stack direction='horizontal' gap={1}>
                                             <img src={f.weatherImage} />
@@ -45,7 +45,7 @@ const HourlyForecast = ({ forecast, day, today: dailyForecast}) => {
                                         <Stack direction='horizontal' className="row1 justify-content-around " >
                                             <Stack direction='horizontal' id="feelslike" gap={3}>
                                                 <FontAwesomeIcon className='text-primary' icon={faTemperatureLow} />
-                                                <p><b>Feels Like</b> <br /><span>{f.main.feels_like} &#8457;</span></p>
+                                                <p><b>Feels Like</b> <br /><span>{f.main.feels_like} &#8451;</span></p>
                                             </Stack>
                                             <Stack direction='horizontal' id="windspeed" gap={3}>
                                                 <FontAwesomeIcon className='text-primary' icon={faWind} />
